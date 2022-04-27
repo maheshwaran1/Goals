@@ -16,7 +16,6 @@
 		3DC2981D27E57875005064B1 /* GoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC2981C27E57875005064B1 /* GoalsViewController.swift */; };
 		3DC2982127E578CE005064B1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC2982027E578CE005064B1 /* LoginViewController.swift */; };
 		3DC2982327E578DE005064B1 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC2982227E578DE005064B1 /* RegisterViewController.swift */; };
-		3DC2982627E579B7005064B1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DC2982527E579B7005064B1 /* GoogleService-Info.plist */; };
 		3DC2982827E57A77005064B1 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC2982727E57A77005064B1 /* DatabaseManager.swift */; };
 		3DC2982A27E57A89005064B1 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC2982927E57A89005064B1 /* StorageManager.swift */; };
 		3DC2982F27E57BED005064B1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC2982E27E57BED005064B1 /* Extensions.swift */; };
@@ -45,7 +44,6 @@
 		3DC2981C27E57875005064B1 /* GoalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsViewController.swift; sourceTree = "<group>"; };
 		3DC2982027E578CE005064B1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3DC2982227E578DE005064B1 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		3DC2982527E579B7005064B1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3DC2982727E57A77005064B1 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		3DC2982927E57A89005064B1 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		3DC2982E27E57BED005064B1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -155,7 +153,6 @@
 		3DC2982427E57986005064B1 /* Google Files */ = {
 			isa = PBXGroup;
 			children = (
-				3DC2982527E579B7005064B1 /* GoogleService-Info.plist */,
 			);
 			path = "Google Files";
 			sourceTree = "<group>";
@@ -328,7 +325,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DC2981227E576D2005064B1 /* LaunchScreen.storyboard in Resources */,
-				3DC2982627E579B7005064B1 /* GoogleService-Info.plist in Resources */,
 				3DC2980F27E576D2005064B1 /* Assets.xcassets in Resources */,
 				3DC2980D27E576CF005064B1 /* Main.storyboard in Resources */,
 			);

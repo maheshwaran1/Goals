@@ -12,10 +12,10 @@ final class NotionAPI {
   static let shared = NotionAPI()
   
   struct Constants {
-    static let databaseID = "ebdd41f8-a830-4e45-a06b-b0bf637f9757"
-    static let bearerToken = "Bearer secret_UlauLEYuq7GyKjVFSlR6hLpuujiqlri1pELlNlRBL0W"
+    static let databaseID = "your databaseID"
+    static let bearerToken = " your Bearer Token"
     static let header = [
-      "Authorization" : "Bearer secret_UlauLEYuq7GyKjVFSlR6hLpuujiqlri1pELlNlRBL0W",
+      "Authorization" : "your Bearer Token",
       "Accept": "application/json",
       "Notion-Version": "2022-02-22",
       "Content-Type": "application/json"
